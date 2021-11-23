@@ -33,6 +33,13 @@ footer {
     padding-bottom: 10px;
 }
 
+.artikel {
+  width: 200px;
+}
+
+.artikelnaam {
+  text-align: center;
+}
 
 /* specifieke stijlen */
 
