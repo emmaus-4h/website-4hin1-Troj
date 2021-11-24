@@ -1,3 +1,9 @@
+/* Handige instellingen */
+* {
+  overflow:auto;
+}
+
+
 /* Basislayout */
 
 html, body {
@@ -23,7 +29,7 @@ article {
 
 
 header {
-    color: rgb(135, 206, 235);
+    color: rgba(231, 164, 20, 0.733);
     text-align: center;
 }
 
@@ -35,10 +41,17 @@ footer {
 
 .artikel {
   width: 200px;
+  padding: 20px;
 }
 
 .artikelnaam {
   text-align: center;
+}
+.artikelplaatje {
+  float: left;
+  height: 200px;
+  width: 200px;  
+
 }
 
 /* specifieke stijlen */
@@ -53,7 +66,7 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: rgb(2, 87, 2);
     text-decoration: none;
 }
 
@@ -67,7 +80,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #03fc9413;
     overflow: hidden;
 }
 
@@ -88,7 +101,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgba(3, 248, 64, 0.801);
 }
 
 
