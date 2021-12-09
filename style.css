@@ -43,6 +43,11 @@ footer {
   width: 200px;
   padding: 20px;
 }
+.links {
+text-align: left;
+
+
+}
 
 .artikelnaam {
   text-align: center;
