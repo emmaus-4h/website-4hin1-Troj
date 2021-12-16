@@ -80,6 +80,7 @@ a:hover {
 }
 
 
+
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
@@ -87,11 +88,13 @@ nav ul {
     padding: 0;
     background-color: #03fc9413;
     overflow: hidden;
+   transition: width 2s, height 2s, transform 2s;
 }
 
 nav ul li {
     float: left;
 }
+
 
 nav li a {
     display: block;
@@ -103,6 +106,9 @@ nav li a {
 
 nav li a:hover {
     background-color: #aaaaaa;
+    width:200px;
+   height:200px;
+   transform: enla;
 }
 
 nav li a.active {
